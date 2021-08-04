@@ -21,8 +21,8 @@ async def on_message(message):
     if message.content == "Hi":
         await message.channel.send("hi")
         
-    if message.content == "김범준":
-        await message.channel.send("ㅄ")
+    if message.content == "왔으면 인사를 해":
+        await message.channel.send("hi")
         
     if message.content == "bye":
         await message.channel.send("비와이")
