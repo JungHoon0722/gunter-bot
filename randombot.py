@@ -46,7 +46,6 @@ async def on_message(message):
 
     if message.content == "숫자":
         a = random.randrange(1000,10000)
-        
         await message.channel.send(a)
         
     if message.content == "해말아":
